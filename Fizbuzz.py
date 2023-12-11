@@ -1,15 +1,33 @@
-input_a = int(input())
-input_b = int(input())
+import os
+alphabet = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z','a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z']
+# def encrypt(text, shift):
 
-i = 0
-for number in range(input_a,input_b + 1):
-    i += number
-    if i % 3 == 0:
-        print("fizz")
-    elif i % 5 == 0:
-        print("buzz")
-    elif (( i % 3 == 0) &  (i % 5 == 0)):
-        print("fizzbuzz")
-    else:
-        print(number)
+userinput = input("enter a single character en for encryption or de for decryption\n")
+
+text = str(input("Enter the string?"))
+shift = int(input("enter shift number"))
+
+shift = shift % 26
+def caesar(start_text, shift_amount, cipher_direction):
+    result =""
+    if cipher_direction == "decode":
+        shift_amount *= -1
+    for letter in start_text:
+      if letter in alphabet:
+        position = alphabet.index(letter)
+        new_position = position + shift_amount
+        result += alphabet[new_position]
+      else:
+        result += letter
+    print(result)
+
+caesar(start_text=text,shift_amount=shift,cipher_direction=userinput)
+
+
+
+
+
+
+
+
 
