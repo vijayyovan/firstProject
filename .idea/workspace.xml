@@ -5,11 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="681c8170-e11d-46eb-90a6-e9f8e7727542" name="Changes" comment="python-code">
-      <change afterPath="$PROJECT_DIR$/venv/Guess_number.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Scope.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/game_data.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/higher_lower.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fizbuzz.py" beforeDir="false" afterPath="$PROJECT_DIR$/Fizbuzz.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,6 +40,8 @@
   "keyToString": {
     "Python.Guess_number.executor": "Run",
     "Python.Scope.executor": "Run",
+    "Python.higher_lower.executor": "Run",
+    "Python.marks.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
@@ -83,7 +83,7 @@
       <workItem from="1700190472033" duration="38774000" />
       <workItem from="1701147189433" duration="62580000" />
       <workItem from="1701914617342" duration="9804000" />
-      <workItem from="1702001288370" duration="12289000" />
+      <workItem from="1702001288370" duration="37543000" />
     </task>
     <task id="LOCAL-00001" summary="python-code">
       <created>1699330004551</created>
@@ -106,7 +106,23 @@
       <option name="project" value="LOCAL" />
       <updated>1699836834329</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="python-code">
+      <option name="closed" value="true" />
+      <created>1702272011934</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1702272011934</updated>
+    </task>
+    <task id="LOCAL-00005" summary="python-code">
+      <option name="closed" value="true" />
+      <created>1702272022629</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1702272022629</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -147,10 +163,11 @@
     <SUITE FILE_PATH="coverage/firstProject$function.coverage" NAME="function Coverage Results" MODIFIED="1700538440508" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/firstProject$Guess_number.coverage" NAME="Guess_number Coverage Results" MODIFIED="1702270441416" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv" />
     <SUITE FILE_PATH="coverage/firstProject$dictionary.coverage" NAME="dictionary Coverage Results" MODIFIED="1701228083251" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/firstProject$marks.coverage" NAME="marks Coverage Results" MODIFIED="1701313458788" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/firstProject$marks.coverage" NAME="marks Coverage Results" MODIFIED="1702272150005" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/firstProject$Bid.coverage" NAME="Bid Coverage Results" MODIFIED="1701661015311" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/firstProject$Guess.coverage" NAME="Guess Coverage Results" MODIFIED="1699841714894" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/firstProject$main.coverage" NAME="main Coverage Results" MODIFIED="1699420074873" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/firstProject$higher_lower.coverage" NAME="higher_lower Coverage Results" MODIFIED="1702616853577" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv" />
     <SUITE FILE_PATH="coverage/firstProject$Height_highest.coverage" NAME="Height_highest Coverage Results" MODIFIED="1698989904071" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/firstProject$Format.coverage" NAME="Format Coverage Results" MODIFIED="1701743468235" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
